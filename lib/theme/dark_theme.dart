@@ -11,7 +11,7 @@ ThemeData dark = ThemeData(
   scaffoldBackgroundColor: const Color(0xFF0F1A11),
   colorScheme: const ColorScheme.dark(primary: Color(0xFF7ED321), secondary: Color(0xFF3D8A0F), surface: Color(0xFF1E2A1F)).copyWith(error: const Color(0xFFDC2626)),
   floatingActionButtonTheme: const FloatingActionButtonThemeData(
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(500)),
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(500))),
     backgroundColor: Color(0xFF7ED321),
     foregroundColor: Colors.white,
   ),
